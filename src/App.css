@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background-color: black;
+  display: block;
+  height: 100vh;
 }
+.header{
+display: block;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+background-color: rgb(7, 175, 241);
+font-size: 20px;
+height: 60px;
+text-align: center;
 }
+.section--input{
+position: relative;
+font-size: 20px;
+width: 550px;
+outline: none;
+display: block;
+margin:0 auto;
+height: 50px;
+padding-left: 10px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+.section--add{
+  position: absolute;
+  background-color: rgb(7, 175, 241);
+  color:black;
+  font-size:25px;
+  width: 60px;
+  display: block;
+  margin-left: 72%;
+  margin-top: -40px;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+
+}
+.section{
+  margin-top: 20px;
+  
+  
+}
+.section--p{
+  color:white;
+}
+.section--label{
+  display: block;
+  width: 85%;
+  background-color: crimson;
+  height: 70px;
+  position: relative;
   color: white;
-}
+  padding-left: 50px;
+  font-size: 20px;
+  padding-top: 10px;
+  overflow-x: hidden;
 
-.App-link {
-  color: #61dafb;
+  
 }
+.section--item{
+position: absolute;
+display: block;
+z-index: 2;
+margin-top: 0px;
+margin-left: 5px;
+height: 25px;
+width: 25px;
+cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.section--button{
+  
+  
+  
+  font-size: 25px;
+  padding: 0 2px 0 2px;
+  background-color: rgb(7, 175, 241);
+  cursor: pointer;
+  border: none;
+  
+}
+.section--flex{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+ align-items: center;
+}
+.empty{
+  color: white;
+  margin: 40px 0 0 40%;
+  
+}
+.wrap-label {
+
+
+color: white;
+
 }
